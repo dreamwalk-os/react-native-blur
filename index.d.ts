@@ -33,6 +33,7 @@ export interface BlurViewProperties {
   blurRadius?: number
   downsampleFactor?: number
   overlayColor?: string
+  children?: React.ReactNode
 }
 
 export class BlurView extends React.Component<BlurViewProperties, {}> {}
